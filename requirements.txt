@@ -1,0 +1,6 @@
+requests>=2.31
+yt-dlp>=2024.1.1
+# 阶段二：本地 ASR（GPU 版必须装 nvidia-cublas-cu12，
+# CTranslate2 自带 cudnn64_9.dll，无需再装 nvidia-cudnn-cu12）
+faster-whisper>=1.0.0
+nvidia-cublas-cu12
